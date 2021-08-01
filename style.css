@@ -1,0 +1,16 @@
+
+
+
+/*Hamburger menu, close btn and logo for nav-to see it*/
+.menu-btn {
+  background: url(./images/icon-hamburger.svg) no-repeat;
+
+}
+
+.exit-btn {
+  background: url(./images/icon-close.svg) no-repeat;
+}
+
+.logo {
+  background: url(./images/logo.svg) no-repeat;
+}

@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Loopstudios landing page</title>
+  <title>Loopstudios landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,46 +15,99 @@
   </style>
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
 
-  Immersive experiences that deliver
+  <div class="container">
 
-  The leader in interactive VR
+    <header>
+      <nav>
+        <a href="#"class="logo"></a>
+        <div class="menu-btn"></div>
+        <ul class="menu">
+          <li class="exit-btn"></li><!--close btn inside hamburger-->
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+      <h1 class="heading">Immersive experience that deliver</h1>
+    </header>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+    <main>
 
-  Our creations
+      <div class="interactive">
+        <img src="./images/mobile/image-interactive.jpg" class="interactive" alt="interactive">
+        <div class="interactive-content">
+          <h2>The leader in interactive vr</h2>
+          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+        </div>
+      </div>
 
-  See all
+      <div class="gallery">
+        <h2 class="grid-title">Our creations</h2>
 
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
+        <img src="./images/mobile/image-deep-earth.jpg" class="mobile" alt="Deep Earth"><!--display none for desktop-->
+        <img src="./images/desktop/image-deep-earth.jpg" class="desktop" alt="Deep Earth"><!--display none for mobile-->
 
-  About
-  Careers
-  Events
-  Products
-  Support
+        <img src="./images/mobile/image-night-arcade.jpg" class="mobile" alt="Night Arcade"><!--display none for desktop-->
+        <img src="./images/desktop/image-night-arcade.jpg" class="desktop" alt="Night Arcade"><!--display none for mobile-->
 
-  © 2021 Loopstudios. All rights reserved.
+        <img src="./images/mobile/image-soccer-team.jpg" class="mobile" alt="Soccer Team VR"><!--display none for desktop-->
+        <img src="./images/desktop/image-soccer-team.jpg" class="desktop" alt="Soccer Team VR"><!--display none for mobile-->
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <img src="./images/mobile/image-grid.jpg" class="mobile" alt="The Grid"><!--display none for desktop-->
+        <img src="./images/desktop/image-grid.jpg" class="desktop" alt="The Grid"><!--display none for mobile-->
+
+        <img src="./images/mobile/image-from-above.jpg" class="mobile" alt="From Above VR"><!--display none for desktop-->
+        <img src="./images/desktop/image-from-above.jpg" class="desktop" alt="From Above VR"><!--display none for mobile-->
+
+
+        <img src="./images/mobile/image-pocket-borealis.jpg" class="mobile" alt="Pocket Borealis"><!--display none for desktop-->
+        <img src="./images/desktop/image-pocket-borealis.jpg" class="desktop" alt="Pocket Borealis"><!--display none for mobile-->
+
+
+        <img src="./images/mobile/image-curiosity.jpg" class="mobile" alt="The Curiosity"><!--display none for desktop-->
+        <img src="./images/desktop/image-curiosity.jpg" class="desktop" alt="The Curiosity"><!--display none for mobile-->
+
+        <img src="./images/mobile/image-fisheye.jpg" class="mobile" alt="Make it Fisheye"><!--display none for desktop-->
+        <img src="./images/desktop/image-fisheye.jpg" class="desktop" alt="Make it Fisheye"><!--display none for mobile-->
+
+        <button>See All</button><!--in desktop use grid to lay it out-->
+      </div>
+    </main>
   </div>
-  <script src="script.js"></script>
+  <footer>
+    <div class="footer-container"><!--will have same width as container above-->
+      <div class="footer-nav">
+        <a href="#"class="logo"></a><!--as svg use background img-->
+        <ul class="footer-menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="Pintrest"></a>
+        <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+      </div>
+      <div class="copy">
+        <p>&COPY; 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/AnnieCat73">Annie Indreiten</a>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
