@@ -7,6 +7,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,12 +22,11 @@
 </head>
 <body>
 
-  <div class="container">
-
-    <header>
+  <header>
+    <div class="hero-container">
       <nav>
-        <a href="#"class="logo"></a>
-        <div class="menu-btn"></div>
+        <a href="#"class="logo"><img src="./images/logo.svg" alt="logo"></a>
+        <img src="./images/icon-hamburger.svg" class="menu-btn" alt="menu">
         <ul class="menu">
           <li class="exit-btn"></li><!--close btn inside hamburger-->
           <li><a href="#">About</a></li>
@@ -31,69 +36,74 @@
           <li><a href="#">Support</a></li>
         </ul>
       </nav>
-      <h1 class="heading">Immersive experience that deliver</h1>
-    </header>
-
-    <main>
-
-      <div class="interactive">
-        <img src="./images/mobile/image-interactive.jpg" class="interactive" alt="interactive">
-        <div class="interactive-content">
-          <h2>The leader in interactive vr</h2>
-          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
-            projects for some of the best companies around the globe. Our award-winning 
-            creations have transformed businesses through digital experiences that bind 
-            to their brand.
-          </p>
-        </div>
+      <div class="heading">
+        <h1 class="heading-content">Immersive experience that deliver</h1>
       </div>
+      
+    </div>
+    
+  </header>
 
-      <div class="gallery">
-        <h2 class="grid-title">Our creations</h2>
+  <main>
 
-        <img src="./images/mobile/image-deep-earth.jpg" class="mobile" alt="Deep Earth"><!--display none for desktop-->
-        <img src="./images/desktop/image-deep-earth.jpg" class="desktop" alt="Deep Earth"><!--display none for mobile-->
-
-        <img src="./images/mobile/image-night-arcade.jpg" class="mobile" alt="Night Arcade"><!--display none for desktop-->
-        <img src="./images/desktop/image-night-arcade.jpg" class="desktop" alt="Night Arcade"><!--display none for mobile-->
-
-        <img src="./images/mobile/image-soccer-team.jpg" class="mobile" alt="Soccer Team VR"><!--display none for desktop-->
-        <img src="./images/desktop/image-soccer-team.jpg" class="desktop" alt="Soccer Team VR"><!--display none for mobile-->
-
-        <img src="./images/mobile/image-grid.jpg" class="mobile" alt="The Grid"><!--display none for desktop-->
-        <img src="./images/desktop/image-grid.jpg" class="desktop" alt="The Grid"><!--display none for mobile-->
-
-        <img src="./images/mobile/image-from-above.jpg" class="mobile" alt="From Above VR"><!--display none for desktop-->
-        <img src="./images/desktop/image-from-above.jpg" class="desktop" alt="From Above VR"><!--display none for mobile-->
-
-
-        <img src="./images/mobile/image-pocket-borealis.jpg" class="mobile" alt="Pocket Borealis"><!--display none for desktop-->
-        <img src="./images/desktop/image-pocket-borealis.jpg" class="desktop" alt="Pocket Borealis"><!--display none for mobile-->
-
-
-        <img src="./images/mobile/image-curiosity.jpg" class="mobile" alt="The Curiosity"><!--display none for desktop-->
-        <img src="./images/desktop/image-curiosity.jpg" class="desktop" alt="The Curiosity"><!--display none for mobile-->
-
-        <img src="./images/mobile/image-fisheye.jpg" class="mobile" alt="Make it Fisheye"><!--display none for desktop-->
-        <img src="./images/desktop/image-fisheye.jpg" class="desktop" alt="Make it Fisheye"><!--display none for mobile-->
-
-        <button>See All</button><!--in desktop use grid to lay it out-->
+    <div class="interactive">
+      <img src="./images/mobile/image-interactive.jpg" class="interactive" alt="interactive">
+      <div class="interactive-content">
+        <h2>The leader in interactive vr</h2>
+        <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.
+        </p>
       </div>
-    </main>
-  </div>
+    </div>
+
+    <div class="gallery">
+      <h2 class="grid-title">Our creations</h2>
+
+      <img src="./images/mobile/image-deep-earth.jpg" class="mobile" alt="Deep Earth"><!--display none for desktop-->
+      <img src="./images/desktop/image-deep-earth.jpg" class="desktop" alt="Deep Earth"><!--display none for mobile-->
+
+      <img src="./images/mobile/image-night-arcade.jpg" class="mobile" alt="Night Arcade"><!--display none for desktop-->
+      <img src="./images/desktop/image-night-arcade.jpg" class="desktop" alt="Night Arcade"><!--display none for mobile-->
+
+      <img src="./images/mobile/image-soccer-team.jpg" class="mobile" alt="Soccer Team VR"><!--display none for desktop-->
+      <img src="./images/desktop/image-soccer-team.jpg" class="desktop" alt="Soccer Team VR"><!--display none for mobile-->
+
+      <img src="./images/mobile/image-grid.jpg" class="mobile" alt="The Grid"><!--display none for desktop-->
+      <img src="./images/desktop/image-grid.jpg" class="desktop" alt="The Grid"><!--display none for mobile-->
+
+      <img src="./images/mobile/image-from-above.jpg" class="mobile" alt="From Above VR"><!--display none for desktop-->
+      <img src="./images/desktop/image-from-above.jpg" class="desktop" alt="From Above VR"><!--display none for mobile-->
+
+
+      <img src="./images/mobile/image-pocket-borealis.jpg" class="mobile" alt="Pocket Borealis"><!--display none for desktop-->
+      <img src="./images/desktop/image-pocket-borealis.jpg" class="desktop" alt="Pocket Borealis"><!--display none for mobile-->
+
+
+      <img src="./images/mobile/image-curiosity.jpg" class="mobile" alt="The Curiosity"><!--display none for desktop-->
+      <img src="./images/desktop/image-curiosity.jpg" class="desktop" alt="The Curiosity"><!--display none for mobile-->
+
+      <img src="./images/mobile/image-fisheye.jpg" class="mobile" alt="Make it Fisheye"><!--display none for desktop-->
+      <img src="./images/desktop/image-fisheye.jpg" class="desktop" alt="Make it Fisheye"><!--display none for mobile-->
+
+      <button>See All</button><!--in desktop use grid to lay it out-->
+    </div>
+  </main>
+
   <footer>
-    <div class="footer-container"><!--will have same width as container above-->
-      <div class="footer-nav">
-        <a href="#"class="logo"></a><!--as svg use background img-->
-        <ul class="footer-menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-      </div>
-      <div class="links">
+    <div class="footer-nav">
+      <a href="#"class="logo"></a><!--as svg use background img-->
+      <ul class="footer-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="links">
+      <div class="social">
         <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
         <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
         <a href="#"><img src="./images/icon-pinterest.svg" alt="Pintrest"></a>
@@ -102,10 +112,10 @@
       <div class="copy">
         <p>&COPY; 2021 Loopstudios. All rights reserved.</p>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/AnnieCat73">Annie Indreiten</a>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/AnnieCat73">Annie Indreiten</a>
+      </div>
     </div>
   </footer>
   <script src="script.js" defer></script>
