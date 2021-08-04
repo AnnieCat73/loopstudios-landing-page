@@ -150,6 +150,43 @@ nav .menu {
   text-transform: uppercase;
 }
 
+/* Main */
+
+main {
+  
+  margin: 6rem 0;
+  width: 375px;
+}
+
+.interactive {
+  margin: 0 auto;
+  width: 20.438rem;
+  
+}
+
+.interactive-content h2 {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.interactive-content p {
+  font-size: 0.938rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+
+
+
 
 
 
