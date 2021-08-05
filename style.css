@@ -152,10 +152,12 @@ nav .menu {
 
 /* Main */
 
+/* Interactive */
+
 main {
-  
   margin: 6rem 0;
   width: 375px;
+  
 }
 
 .interactive {
@@ -183,6 +185,69 @@ main {
   line-height: 1.6em;
   text-align: center;
 }
+
+/* Gallery */
+
+.gallery-container {
+
+  margin: 0 auto;
+  
+  width: 20.438rem;
+  
+}
+
+.gallery-content {
+  position: relative;
+  
+ 
+}
+
+.gallery {
+  display: block;
+  
+  width: 100%;
+}
+
+.grid-title {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-content h3 {
+  color:#ffffff;
+  font-size: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  
+}
+
+.gallery .desktop {
+  display: none;
+
+}
+
+.gallery-content .mobile {
+  display: block;
+  height: 7.5rem;
+  margin-bottom: 1.5rem;
+  /*background: rgb(151,151,151);
+  background: linear-gradient(220deg, rgba(151,151,151,1) 0%, rgba(216,216,216,1) 100%);
+  z-index: -1;*/
+  
+  
+}
+
+
+
+
 
 
 
