@@ -375,6 +375,7 @@ footer .links {
     flex-direction: column;
     width: 1250px; /*69.375rem;*/
     padding-top: 4em;
+    border: 1px solid red;
   }
 
   .hero-container nav {
@@ -403,6 +404,7 @@ footer .links {
   }
 
   nav .menu   {
+    height: 1.875rem;
     transform: translateX(0);
     width: unset;
     background: none; 
@@ -436,6 +438,74 @@ footer .links {
     text-align: left;
     
   }
+
+  main {
+    width: 1250px;
+    margin: 6rem auto;
+    
+  }
+
+  /*Interactive */
+
+  
+  .interactive {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+  }
+
+  .interactive img {
+    height: 31.25rem;
+    width: 45.688rem;
+    align-self: flex-start;
+    box-shadow: 0px 4px 4px #b6b0b0;
+  }
+
+  .interactive-content {
+    background-color: #ffffff;
+    height: 14.409rem;
+    text-align: left;
+    width: 27.813rem;
+    margin-left: -12rem;
+    padding-bottom: 0;
+    align-self: flex-end;
+    display: grid;
+    justify-items: flex-end;
+    align-items: flex-end
+    
+  }
+
+  
+
+  .interactive-content h2 {
+    font-size: 2.182rem;
+    margin-left: 2em; 
+    padding-left: 1.8em;
+    margin-bottom: 0.52em;
+    line-height: 1em;
+    text-align: left;
+    
+    width: 100%;
+  }
+  
+  
+  .interactive-content p {
+    font-size: 0.682rem;
+    padding-left: 1.5em; 
+    margin-bottom: 0;
+    
+    width: 20.227rem;
+    text-align: left;
+  }
+  
+  
+    
+    
+  
+  
+
+  
 
 }
 
