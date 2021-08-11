@@ -505,11 +505,11 @@ footer .links {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-columns: 128px 930px;
+    margin-top: 6rem;
   }
   
   .gallery {
-    grid-column: 1;
+    grid-column: 1 / span 2;
     grid-row: 2;
     width: 100%;
     display: grid;
@@ -525,53 +525,49 @@ footer .links {
   }
   .gallery-content .desktop {
     display: block;
-    height: 28.125rem;
-    width: 16rem;
+    /*height: 28.125rem;
+    width: 16rem;*/
     object-fit: cover;
   }
 
   .grid-title {
+    font-size: 1.8rem;
     grid-column: 1;
     grid-row: 1;
+    justify-self: start;
   }
 
   .grid-btn {
     grid-column: 2;
     grid-row: 1;
+    justify-self: end;
+    height: 2rem;
+    width: 9rem;
+    margin-right: -1em;
   }
 
-  .gallery .gallery-content .earth-d {
-    grid-area: 1 / 2;
-  }
-  
-  .gallery .gallery-content .arcade-d {
-    grid-area: ;
-  }
-  
-  .gallery .gallery-content .earth-d {
-    grid-area: 1 / 2;
-  }
-  
-  .gallery .gallery-content .earth-d {
-    grid-area: 1 / 2;
-  }
-  
-  .gallery .gallery-content .earth-d {
-    grid-area: 1 / 2;
-  }
-  
-  .gallery .gallery-content .earth-d {
-    grid-area: 1 / 2;
-  }
-  
+  .grid-btn button {
+    font-size: 0.700rem;
+    margin-top: 0;
     
-    
-  
-  
+    padding: 0 2em;
+  }
 
+  .gallery .gallery-content .earth-d {
+    grid-area: 1 / 2;
+  }
   
-
+  
 }
+  
+    
+    
+  
+  
+
+  
+
+
 
 
 
