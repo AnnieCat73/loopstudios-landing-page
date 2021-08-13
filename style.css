@@ -563,24 +563,20 @@ footer .links {
     height: 10rem;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
-    
-
-    
+    justify-content: space-evenly;
   }
 
   .footer-nav {
     height: 10.313rem;
     width: 34.6875rem;
     display: grid;
-    
     align-content: center;
-    /*margin-left: 10.313rem;*/
+    
   }
 
   .footer-nav .logo {
     margin: 0;
-    margin-right: 3rem;
+    margin-bottom: 2.5em;
   }
 
   .footer-menu {
@@ -588,21 +584,20 @@ footer .links {
   }
 
   .links {
-    
-    /*margin-right: 10.313rem;*/
-    width: 34.6875rem;
     display: flex;
-
+    width: 34.6875rem;
   }
 
   .links .social {
-    margin: 0;
+    margin: 0 0 0 0;
     align-self: flex-end;
+    margin-bottom: 1em;
   }
 
   .copy  {
-    margin-top: 1em;
+    margin: 0;
     align-self: flex-end;
+    
   }
 
   .footer-menu li {
