@@ -415,13 +415,26 @@ footer .links {
 
   nav .menu ul li {
    margin: 0;
-
+   
   }
 
   nav .menu ul li a {
     font-size: 0.938rem;
     line-height: 121%;
     text-transform: unset;
+    font-weight: bold;
+  }
+
+  nav .menu ul li:hover::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.5rem;
+    width: 1.5rem;
+    
+    
   }
 
   .heading {
