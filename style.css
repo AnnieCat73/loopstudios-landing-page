@@ -624,6 +624,15 @@ footer .links {
     margin-bottom: 1em;
   }
 
+  .links .social a:hover::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.2rem;
+    width: 1.2rem;
+  }
+
   
 
   .copy  {
