@@ -558,6 +558,8 @@ footer .links {
     justify-self: start;
   }
 
+  
+
   .grid-btn {
     grid-column: 2;
     grid-row: 1;
@@ -567,14 +569,11 @@ footer .links {
     margin-right: -1em;
   }
   .gallery-container button:hover {
-    background-color: #000000
-    ;
+    background-color: #000000;
     cursor: pointer;
     color: #ffffff;
     border: solid 3px rgb(67, 130, 212);
   }
-
-  
 
   .grid-btn button {
     font-size: 0.700rem;
@@ -632,8 +631,6 @@ footer .links {
     padding-bottom: 0.2rem;
     width: 1.2rem;
   }
-
-  
 
   .copy  {
     margin: 0;
