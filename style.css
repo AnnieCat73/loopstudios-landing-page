@@ -558,6 +558,10 @@ footer .links {
     justify-self: start;
   }
 
+  .grid-title:hover {
+    border-bottom: solid 3px rgb(67, 130, 212);
+  }
+
   
 
   .grid-btn {
