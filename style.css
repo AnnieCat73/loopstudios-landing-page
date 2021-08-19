@@ -468,6 +468,10 @@ footer .links {
     border: 1px solid red;
   }
 
+  .interactive:hover {
+    border: solid 3px rgb(67, 130, 212);
+  }
+
   .interactive img {
     height: 31.25rem;
     width: 45.688rem;
