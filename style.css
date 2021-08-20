@@ -378,6 +378,10 @@ footer .links {
     border: 1px solid red;
   }
 
+  .hero-container:hover {
+    border: solid 3px rgb(67, 130, 212);
+  }
+
   .hero-container nav {
     height: 2rem;
   }
