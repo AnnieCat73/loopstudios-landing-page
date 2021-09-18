@@ -64,7 +64,7 @@ nav .menu {
   position: fixed;
   top: 0;
   right: 0;
-  width: 375px;/*REMOVE THIS AFTER??*/
+  width: 375px;/*REMOVE THIS AFTER*/
   background-color: #000000;
   height: 100vh;
   z-index: 2;
@@ -234,27 +234,8 @@ main {
   height: 7.5rem;
   margin-bottom: 1.5rem;
   width: auto;
+  
 }
-/*
-.gallery .gradient {
-  display: relative;
-  display: inline-block;
-}
-
-.gallery .gradient:after {
-  content: '';
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  top: 0;
-  bottom: 100;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: rgb(151,151,151);
-  background: linear-gradient(220deg, rgba(151,151,151,1) 0%, rgba(216,216,216,1) 100%);
-  z-index: -1;
-}*/
 
 .grid-btn {
   display: flex;
@@ -285,8 +266,6 @@ footer {
   align-items: center;
   padding: 3.5rem 0;
   width: 375px;
-
-
 }
 
 .footer-nav .logo  {
@@ -362,11 +341,7 @@ footer .links {
     flex-direction: column;
     width: 1250px; /*69.375rem;*/
     padding-top: 4em;
-    border: 1px solid red;
-  }
-
-  .hero-container:hover {
-    border: solid 3px rgb(67, 130, 212);
+    
   }
 
   .hero-container nav {
@@ -418,7 +393,6 @@ footer .links {
     content: "";
     display: block;
     margin: 0 auto;
-    
     border-bottom: 2px solid #ffffff;
     padding-bottom: 0.5rem;
     width: 1.5rem;
@@ -449,11 +423,6 @@ footer .links {
     display: flex;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
-  }
-
-  .interactive:hover {
-    border: solid 3px rgb(67, 130, 212);
   }
 
   .interactive img {
@@ -490,7 +459,6 @@ footer .links {
     font-size: 0.682rem;
     padding-left: 1.5em; 
     margin-bottom: 0;
-    
     width: 20.227rem;
     text-align: left;
   }
@@ -517,6 +485,7 @@ footer .links {
   .gallery-content .mobile {
     display: none;
   }
+  
   .gallery-content .desktop {
     display: block;
     /*height: 28.125rem;
